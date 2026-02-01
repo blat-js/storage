@@ -10,6 +10,9 @@
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "repository": {
+    "url": "https://github.com/blat-js/storage"
+  },
   "private": true,
   "scripts": {
     "setNode": "bash ./set-node.sh",
