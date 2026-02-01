@@ -6,17 +6,15 @@
     "name": "Andrey Raut",
     "url": "https://github.com/andrey-raut"
   },
-  "version": "1.0.0",
+  "version": "1.0.2",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "repository": {
     "url": "https://github.com/blat-js/storage"
   },
-  "private": true,
+  "private": false,
   "scripts": {
-    "setNode": "bash ./set-node.sh",
-    "preinstall": "npm run setNode",
     "clean": "rm -rf dist",
     "compile": "tsup src",
     "build": "npm run clean && npm run compile",
