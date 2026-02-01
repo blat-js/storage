@@ -157,30 +157,6 @@ const clearStorage = () => {
 
 ## Notes
 
-- Package has barrel file, so you can import everything from the package root. However, specific imports are recommended.
-
-```ts
-// Import from the barrel file:
-import {
-  CookieItem,
-  CookieItemParams,
-  LocalStorageItem,
-  LocalStorageItemParams,
-  CoreStorageItem,
-  CoreStorageItemParams,
-} from "@blat-js/storage";
-// Specific imports:
-import {
-  LocalStorageItem,
-  LocalStorageItemParams,
-} from "@blat-js/storage/LocalStorageItem";
-import { CookieItem, CookieItemParams } from "@blat-js/storage/CookieItem";
-import {
-  CoreStorageItem,
-  CoreStorageItemParams,
-} from "@blat-js/storage/CoreStorageItem";
-```
-
 - Default value is fully typed and returned when storage is empty.
 
 ## API

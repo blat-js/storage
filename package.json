@@ -6,7 +6,7 @@
     "name": "Andrey Raut",
     "url": "https://github.com/andrey-raut"
   },
-  "version": "1.0.5",
+  "version": "1.0.7",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -51,7 +51,6 @@
     "dist"
   ],
   "exports": {
-    ".": "./dist/index.js",
     "./*": "./dist/public/*.js"
   },
   "engines": {
